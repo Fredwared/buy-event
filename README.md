@@ -5,8 +5,8 @@
 - PHP 7.3 или выше
 - СУБД: MySQL\PostgreSQL
 
-#### Если имеется Docker то запускаем комунду
-`docker compose up -d`
+#### Если имеется Docker то запускаем команду
+`docker-compose up -d`
 
 #### Для работы с консольным приложением выполняем следующие 
 `docker exec -it be_app sh` где `be_app` название контейнера
@@ -20,7 +20,7 @@
  Tell me about customer! Hint his email:
  > {Тут вводим электронную почту клиента}
  
- Дальше спрашивает по какому заказу отправить уведоление
+ Дальше спрашивает по какому заказу отправить уведомление
  
  Select which order you would like notify about!:
   [0] 5
